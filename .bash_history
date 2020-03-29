@@ -29,3 +29,22 @@ php -S 192.168.33.12:8000
 cd php_db_lessons/
 php -S 192.168.33.12:8000
 exit
+cd upload_image_php/
+php -S 192.168.33.12:8000
+cd ..
+mkdir todo_app_php
+cd todo_app_php/
+mysql -u root
+touch todo.php
+touch _ajax.php
+mysql -u root
+exit
+cd todo_app_php/
+vi
+vi mysql.sql
+cat mysql.sql 
+vi mysql.sql
+touch config.php
+touch functions.php
+touch index.php
+php -S 192.168.33.12:8000
